@@ -129,7 +129,7 @@ displayResults1 = () => {
   const myModalEl = document.getElementById("myModal");
   const modal = new mdb.Modal(finalModal);
   const modalBody = document.getElementById("final-body");
-  modalBody.innerHTML = `000.000.000.000:12321 <br> 1.19.2`;
+  modalBody.innerHTML = `65.108.199.248:17604 <br> 1.19.2`;
   modal.show();
 };
 
