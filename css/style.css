@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container1 {
+  display: none;
+  margin: 5vh;
+}
+#mobile {
+  display: none;
+}
+.form-outline .form-control ~ .form-notch .form-notch-leading {
+  border-top: 0.125rem solid #ffffff;
+  border-bottom: 0.125rem solid #ffffff;
+  border-left: 0.125rem solid #ffffff;
+}
+
+.form-outline .form-control ~ .form-notch .form-notch-trailing {
+  border-top: 0.125rem solid #ffffff;
+  border-right: 0.125rem solid #ffffff;
+  border-bottom: 0.125rem solid #ffffff;
+}
+
+.form-outline .form-control ~ .form-notch .form-notch-middle {
+  border-top: 0;
+  border-bottom: 0.125rem solid #ffffff;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-leading {
+  border-top: 0.125rem solid #ffffff;
+  border-bottom: 0.125rem solid #ffffff;
+  border-left: 0.125rem solid #ffffff;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-trailing {
+  border-top: 0.125rem solid #ffffff;
+  border-right: 0.125rem solid #ffffff;
+  border-bottom: 0.125rem solid #ffffff;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-middle {
+  border-top: 0;
+  border-bottom: 0.125rem solid #ffffff;
+}
+
+.form-label {
+  color: #ffffff !important;
+}
+
+#sbutton:hover {
+  cursor: pointer;
+}
+p {
+  color: white;
+  font-family: monospace;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+
+#carouselExampleControls {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}

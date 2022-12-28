@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+p {
+  color: white;
+  font-family: monospace;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+#float1 {
+  position: relative;
+
+  -webkit-animation: floatBubble 6s infinite;
+  -webkit-animation-direction: alternate;
+  margin: 2vh;
+}
+#float2 {
+  position: relative;
+
+  -webkit-animation: floatBubble 6s infinite;
+  -webkit-animation-direction: alternate;
+  margin: 2vh;
+  animation-delay: 1s;
+}
+#float3 {
+  position: relative;
+
+  -webkit-animation: floatBubble 6s infinite;
+  -webkit-animation-direction: alternate;
+  margin: 2vh;
+  animation-delay: 2s;
+}
+
+@-webkit-keyframes floatBubble {
+  from {
+    left: 0vh;
+    -webkit-animation-timing-function: ease-in;
+  }
+
+  to {
+    left: 500px;
+    -webkit-animation-timing-function: ease-out;
+  }
+}
