@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "question": "Jakie zwierzęta dodano \rw najnowszym updacie?",
+    "question": "Jakie zwierzęta dodano \rw 1.19?",
     "a": "Kijanka i Zaba",
     "b": "Baran i Byk",
     "c": "Maly i duzy kangur",
@@ -100,20 +100,11 @@
   },
   {
     "id": 12,
-    "question": "x",
-    "a": "a",
-    "b": "b",
-    "c": "c",
-    "d": "d",
-    "answer": "a"
-  },
-  {
-    "id": 13,
-    "question": "x",
-    "a": "a",
-    "b": "b",
-    "c": "c",
-    "d": "d",
+    "question": "Cena 500g klopsikow roslinnych ikea",
+    "a": "21",
+    "b": "19",
+    "c": "22",
+    "d": "20",
     "answer": "a"
   },
   {
