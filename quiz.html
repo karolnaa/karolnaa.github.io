@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="expires" content="Fri, 18 Jul 2014 1:00:00 GMT" />
+    <meta http-equiv="Set-Cookie" content="name=data; path=path; expires=Thursday, 01-Jan-2015 00:00:00 GMT">
+    <title>&lrm;</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/favicon_hm.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <link rel="stylesheet" href="./css/styleQ.css" />
+  </head>
+
+  <body>
+    <!-- Start your project here-->
+    <div class="container my-5" id="cont">
+      <div id="intro">
+        <div class="counter">
+          <p class="prefix">Pytanie</p>
+          <h1 id="counter">1/10</h1>
+        </div>
+        <div class="score">
+          <p class="prefix">Wynik</p>
+          <h1 id="score">0</h1>
+        </div>
+      </div>
+      <div class="question-holder row">
+        <div class="col-12">
+          <h1 id="question">Question holder</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="answer-container card">
+            <p class="answer-prefix">A</p>
+            <p class="answer-text" data-answer="a">Answer A</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="answer-container card">
+            <p class="answer-prefix">B</p>
+            <p class="answer-text" data-answer="b">Answer B</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="answer-container card">
+            <p class="answer-prefix">C</p>
+            <p class="answer-text" data-answer="c">Answer C</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="answer-container card">
+            <p class="answer-prefix">D</p>
+            <p class="answer-text" data-answer="d">Answer D</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+            <button
+              type="button"
+              class="btn btn-outline-light reset"
+              data-mdb-dismiss="modal"
+              id="restart"
+            >
+              <i class="fab fa-solid fa-lg fa-rotate"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="endGameModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body text-center" id="modal-body">...</div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Final Modal -->
+    <div
+      class="modal fade"
+      id="finalModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body text-center" id="final-body">...</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mobile">
+      <p>otworz na kompie</p>
+    </div>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+
+    <script>
+      const cont = document.getElementById("cont")
+      const mobile = document.getElementById("mobile")
+
+      if (window.innerWidth < 500){
+      cont.style.display = "none";
+      mobile.style.display = "flex";
+      }
+    </script>
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
