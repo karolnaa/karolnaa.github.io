@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "question": "Skad jest Drake?",
+    "a": "Warsaw, Poland",
+    "b": "New Orleans, Louisiana",
+    "c": "Toronto, Ontario",
+    "d": "Orange county, LA",
+    "answer": "c"
+  },
+  {
+    "id": 2,
+    "question": "Z kim Drake mial najwiekszy beef?",
+    "a": "Pusha-T",
+    "b": "Pharell Wiliams",
+    "c": "Virgil Abloh",
+    "d": "Popek Monster",
+    "answer": "a"
+  },
+  {
+    "id": 3,
+    "question": "Jakie jest rozwinięcie skrótu OVO?",
+    "a": "Oranges Vaginas and Oatmilk ",
+    "b": "Overall Very Orange",
+    "c": "Orange Venomous Oysters",
+    "d": "October's Very Own",
+    "answer": "d"
+  },
+  {
+    "id": 4,
+    "question": "Z czego pije drake <img src='drake.jpg'></img>",
+    "a": "Z pucharu za najwiecej zdobytych kobiet",
+    "b": "Z nagrody za bycie goofiest man alive",
+    "c": "Z nagrody Grammy do ktorej sikal kanye west",
+    "d": "Z kieliszka w domu ze zlota bo tylko takie ma w domu",
+    "answer": "c"
+  },
+  {
+    "id": 5,
+    "question": "Kto powiedzial ze dick Drejka jest wack?",
+    "a": "Rhianna",
+    "b": "Adelle",
+    "c": "Kim Kardashian",
+    "d": "SZA",
+    "answer": "d"
+  },
+  {
+    "id": 6,
+    "question": "Jak sie nazywa samolot Drejka?",
+    "a": "Air Drake",
+    "b": "OVO Aircraftt",
+    "c": "Flying Owl",
+    "d": "Heartbreaker 2001",
+    "answer": "a"
+  },
+  {
+    "id": 7,
+    "question": "Jak w tlumaczeniu na polski \r nazywa sie dom drejka w Toronto?",
+    "a": "Biały dom",
+    "b": "Ambasada",
+    "c": "Cztery sciany samotnosci",
+    "d": "Dom milosci",
+    "answer": "b"
+  },
+  {
+    "id": 8,
+    "question": "Drake spiewal w piosence Summer Sixteen \r ze co ma wieksze od Kanye West ?",
+    "a": "Basen",
+    "b": "Chuja",
+    "c": "Wzrost",
+    "d": "Body count",
+    "answer": "a"
+  },
+  {
+    "id": 9,
+    "question": "Dokoncz: \r I only love my ...",
+    "a": "Ex and my car yeah im sorry",
+    "b": "Bed and my momma im sorry",
+    "c": "House and my wife im sorry",
+    "d": "Friends and my cash im sorry",
+    "answer": "b"
+  },
+  {
+    "id": 10,
+    "question": "Jakie jest drugie imie Drejka? (urzędowe)",
+    "a": "Aubrey",
+    "b": "Bobby",
+    "c": "Robert",
+    "d": "Drake",
+    "answer": "d"
+  },
+  {
+    "id": 11,
+    "question": "Jak nazywa sie knajpa w Miami gdzie \r drake zrobil swoje 36 urodziny?",
+    "a": "Newonce",
+    "b": "Hot Chicken",
+    "c": "Sexy Fish",
+    "d": "Luxury Life",
+    "answer": "c"
+  },
+  {
+    "id": 12,
+    "question": "Co rozdawal Drake na jednych \r ze swoich urodzin",
+    "a": "Drake bucks - fake 500 dolarow z jego podobizna",
+    "b": "Darmowy kupon na toaletyt",
+    "c": "Gitary z jego podpisem",
+    "d": "Ciastka niespodzianki z nazwami jego bylych",
+    "answer": "a"
+  },
+  {
+    "id": 13,
+    "question": "Co rzuciła ostatnio fanka drejka na koncercie na scene \r ze az mu opadla szczenka i zaprosil ja na scene",
+    "a": "Majtki w pieski",
+    "b": "Sernik",
+    "c": "Stanik w rozmiarze 46G",
+    "d": "Majtki z napisem I love champagnepapi",
+    "answer": "c"
+  }
+]
